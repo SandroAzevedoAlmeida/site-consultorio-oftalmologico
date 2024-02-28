@@ -1,0 +1,60 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1400px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: yellowgreen;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.content-horario {
+    width: 100%;
+    background-color: white;
+    min-height: 100px;
+    padding: 20px;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+}
+.content-iframe {
+    display: flex;
+}
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+}
+.formulario {
+    width: 50%; /* Defina a largura do formulário conforme necessário */
+    padding: 20px;
+    box-sizing: border-box;
+}
+.iframe {
+    width: 50%; /* Defina a largura do iframe conforme necessário */
+    height: 400px; /* Defina a altura do iframe conforme necessário */
+    border: none;
+}
